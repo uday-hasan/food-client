@@ -1,9 +1,9 @@
 import { createAuthClient } from "better-auth/react";
 import { inferAdditionalFields } from "better-auth/client/plugins";
-import { env } from "@/env";
+// import { env } from "@/env";
 
 export const authClient = createAuthClient({
-  baseURL: `${env.NEXT_PUBLIC_BACKEND_URL}/api/auth`,
+  baseURL: `https://food-server-lilac.vercel.app/api/auth`,
   plugins: [
     inferAdditionalFields({
       user: {
