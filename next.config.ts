@@ -46,7 +46,7 @@ const nextConfig: NextConfig = {
     return [
       {
         source: "/api/:path*",
-        destination: `${process.env.NEXT_PUBLIC_BACKEND_URL}/api/:path*`,
+        destination: `https://food-server-lilac.vercel.app/api/:path*`,
       },
     ];
   },
