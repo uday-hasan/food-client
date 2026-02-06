@@ -17,7 +17,7 @@ export const env = createEnv({
   // They are safe to be bundled and sent to the browser.
   client: {
     NEXT_PUBLIC_TEST: z.string().min(1), // Validates it's a string and not empty
-    NEXT_PUBLIC_BACKEND_URL: z.url(),
+    NEXT_PUBLIC_BACKEND_URL: z.string(),
   },
 
   // 3. RUNTIME ENV: The Mapping
