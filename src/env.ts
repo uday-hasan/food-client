@@ -9,7 +9,7 @@ export const env = createEnv({
   server: {
     BACKEND_URL: z.url(), // Validates that the string is a real URL
     FRONTEND_URL: z.url(),
-    AUTH_URL: z.url(),
+    AUTH_URL: z.string(),
   },
 
   // 2. CLIENT BLOCK: Public variables
