@@ -1,0 +1,11 @@
+export type * from "./routes.type";
+export type * from "./global.types";
+export type * from "./moduleTypes/meal.type";
+export type * from "./moduleTypes/provider.type";
+export type * from "./moduleTypes/signup.type";
+export type * from "./moduleTypes/category.type";
+export type * from "./moduleTypes/order.type";
+export type * from "./moduleTypes/review.type";
+export type * from "./moduleTypes/user.type";
+export type * from "./moduleTypes/admin.type";
+export type * from "./legal.type";
